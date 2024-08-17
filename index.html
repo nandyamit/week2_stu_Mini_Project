@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets\styles.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <center> 
+            <div>
+                <h1>CSS Snippet Cheatsheet</h1>
+                <p class="headingtext">Ever have trouble recalling the exact syntax for your favirite CSS code? Give it a permanent home and add it to this page! Select any snippet below and it'll automatically select all of the code for you to copy.</p>
+            </div>
+        </center>
+        <br>
+        <br>
+        <div class="container">
+            <div class="box">
+                <header class="card-header">Flexbox Row</header>
+                <p class="boxtext"> Use these three properties to create a Flexbox row layout.</p>
+                <div class="linear-gradient-background">
+                    <code class="code-card">
+                        &nbsp.row { <br> &nbsp&nbspdisplay: flex; <br> &nbsp&nbspflex-direction: row; <br> &nbsp&nbspflex-wrap: wrap; <br> &nbsp}
+                    </code>
+                </div>
+            </div>
+            <div class="box">
+                <header class="card-header">Flexbox Column</header>
+                <p class="boxtext"> Use this to create a Flexbox column layout.</p>
+                <div class="linear-gradient-background">
+                    <code class="code-card">
+                        &nbsp.column { <br> &nbsp&nbspdisplay: flex; <br> &nbsp&nbspflex-direction: column; <br>&nbsp&nbsp}
+                    </code>
+                </div>
+            </div>
+            <div class="box">
+                <header class="card-header">CSS Grid Layout</header>
+                <p class="boxtext"> Build a 12-column layout using CSS Gird.</p>
+                <div class="linear-gradient-background">
+                    <code class="code-card">
+                        &nbsp.gird { <br> &nbsp&nbspdisplay: grid; <br> &nbsp&nbspwidth: 100%; <br> &nbsp&nbspgrid-template-columns: <br> &nbsp&nbsprepeat(12 1fr); <br>&nbsp}
+                    </code>
+                </div>
+            </div>
+            <div class="box">
+                <header class="card-header">Linear Gradients</header>
+                <p class="boxtext"> This will create a background linear gradient from top to bottom.</p>
+                <div class="linear-gradient-background">
+                    <code class="code-card">
+                        &nbsp.linear-gradient-background { <br> &nbsp&nbsp&nbspbackground-image: linear- <br> &nbspgradient ( <br> &nbsp&nbsp&nbsp&nbsprgba ( 232, 102, 236, 0.3) 0%, <br> &nbsp&nbsp&nbsp&nbsprgba ( 232, 102, 236, 0.6) <br> &nbsp100% <br> &nbsp); <br>&nbsp}
+                    </code>
+                </div>
+            </div>
+            <div class="box">
+                <header class="card-header">Box Transition Glow</header>
+                <p class="boxtext"> Use transition and box shadows to glow on hover.</p>
+                <div class="linear-gradient-background">
+                    <code class="code-card">
+                        &nbsp.code-card .card-header { <br> &nbsp&nbsp&nbspborder-radius: 8px; <br> &nbsp&nbsp&nbsptransition: all 0.5s ease-in<br> &nbsp&nbsp&nbspout; <br>&nbsp } <br> <br>&nbsp.code-card: hover, <br> &nbsp.code-card:hover .card-header { <br> &nbsp&nbsp&nbspbox-shadow: inset 0px 0px 8px <br> &nbsprgba (232, 102, 236, 1), 0 0 15px <br> &nbsprgba (232, 102, 236, 1); <br>&nbsp }
+                    </code>
+                </div>
+            </div>
+            <div class="box">
+                <header class="card-header">Overlay card with Title</Title></header>
+                <p class="boxtext"> Use position properties and negative margins to raise elements higher than their natural starting point.</p>
+                <div class="linear-gradient-background">
+                    <code class="code-card">
+                        &nbsp.card-header { <br> &nbsp&nbsp&nbspposition: relative: <br> &nbsp&nbsp&nbspmargin-top: -20px; <br>&nbsp}
+                    </code>
+                </div>
+            </div>
+        </div>
+        <div>
+            <center> 
+                <div>
+                    <footer>Made with <span class="heart">&#x2764 </span> and CSS </footer>
+                </div>
+            </center>
+        </div>
+    </div>
+</body>
+</html>
